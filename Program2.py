@@ -9,7 +9,7 @@ class myGUI:
         self.main_window = tkinter.Tk()
         self.InfoButton = tkinter.Button(self.main_window, text = 'Show Info', command = self.InfoButton_Action)
         self.quitButton = tkinter.Button(self.main_window, text = 'Quit', command = self.main_window.destroy)
-        self.main_window.title('Program #2 GUI Program')
+        self.main_window.title('Program #2 GUI Program.')
 
         self.InfoButton.pack(padx = 10, pady = 10)
         self.quitButton.pack(padx = 10, pady = 10)
